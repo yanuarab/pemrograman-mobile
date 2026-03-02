@@ -130,6 +130,8 @@ output:
 
 ![hasil](assets/praktikum2/hasil2.png)
 
+---
+
 ## Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 
 ### Langkah 1
