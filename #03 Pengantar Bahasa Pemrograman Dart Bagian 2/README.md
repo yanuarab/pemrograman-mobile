@@ -27,6 +27,7 @@ if (test == "test2") print("Test2 again");
 silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
 
 jawaban:
+
 ![code_eror](assets/praktikum1/eror1.png)
 
 ### penjelasan:
@@ -48,6 +49,7 @@ if (test == "test2") print("Test2 again");
 }
 ```
 output:
+
 ![output](assets/praktikum1/hasil%20run.png)
 
 ### Langkah 3
@@ -71,6 +73,7 @@ if (test2 == "true") {
 }
 ```
 output yang di hasilkan:
+
 ![hasil](assets/praktikum1/hasilrun2.png)
 
 ---
@@ -121,7 +124,6 @@ do {
 ```
 
 jawaban: 
-
 Pada perulangan **do-while**, nilai **counter** melanjutkan dari hasil akhir perulangan **while**, yaitu 33, sehingga perulangan berjalan dari 33 hingga 76.
 
 output:
@@ -190,6 +192,7 @@ penjelasan:
 Kondisi index > 1 || index < 7 selalu bernilai true, sehingga continue selalu dijalankan dan print(index) tidak pernah dieksekusi. Perulangan berhenti saat index == 21 karena break
 
 output:
+
 ![hasil](assets/praktikum3/hasil2.png)
 
 ## Tugas: Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
