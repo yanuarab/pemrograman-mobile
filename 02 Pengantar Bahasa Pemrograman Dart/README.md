@@ -7,6 +7,7 @@ Absen : 21 <br>
 ## soal 1
 Ubahlah bagian kode pada baris ke-3 berikut agar menghasilkan output sesuai dengan ketentuan pada soal!
 
+
 ```dart
 void main() {
   for (int i = 0; i < 10; i++) {
