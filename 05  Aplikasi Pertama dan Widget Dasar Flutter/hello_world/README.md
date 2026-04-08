@@ -98,7 +98,8 @@ return MaterialApp(
       ),
     );
 ```
-    output: 
+    output:
+     
    <img src="assets/praktikum5/gambar%201.jpeg" width="300"/>
 
 ### Langkah 2: Floating Action Button (FAB)
@@ -120,6 +121,7 @@ return MaterialApp(
     );
 ```
 output:
+
 <img src="assets/praktikum5/gambar2.jpeg" width="300"/>
 
 ### Langkah 3: Scaffold Widget
@@ -204,6 +206,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 output:
+
 <img src="assets/praktikum5/gambar3.jpeg" width="300"/>
 
 ### Langkah 4: Dialog Widget
@@ -270,6 +273,7 @@ showAlertDialog(BuildContext context) {
 ```
 
 output:
+
 <img src="assets/praktikum5/gambar4.jpeg" width="300"/>
 
 ### Langkah 5: Input dan Selection Widget
@@ -377,4 +381,6 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 output:
+
+
 <img src="assets/praktikum5/gambar6.jpeg" width="300"/>
