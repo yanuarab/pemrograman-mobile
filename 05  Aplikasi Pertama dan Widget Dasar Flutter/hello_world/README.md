@@ -9,22 +9,22 @@ Absen : 21 <br>
 ### Langkah 1
 Buka VS Code, lalu tekan tombol Ctrl + Shift + P maka akan tampil Command Palette, lalu ketik Flutter. Pilih New Application Project.
 
-<img src="assets/praktikum1/gambar1.png" width="400"/>
+<img src="assets/praktikum1/gambar1.png" width="300"/>
 
 ### Langkah 2:
 Kemudian buat folder sesuai style laporan praktikum yang Anda pilih. Disarankan pada folder dokumen atau desktop atau alamat folder lain yang tidak terlalu dalam atau panjang. Lalu pilih Select a folder to create the project in.
 
-<img src="assets/praktikum1/gambar2.png" width="400"/>
+<img src="assets/praktikum1/gambar2.png" width="300"/>
 
 ### Langkah 3:
 Buat nama project flutter hello_world seperti berikut, lalu tekan Enter. Tunggu hingga proses pembuatan project baru selesai.
 
-<img src="assets/praktikum1/gambar3.png" width="400"/>
+<img src="assets/praktikum1/gambar3.png" width="300"/>
 
 ### Langkah 4:
 Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti berikut. Pesan akan tampil berupa "Your Flutter Project is ready!" artinya Anda telah berhasil membuat project Flutter baru.
 
-<img src="assets/praktikum1/gambar4.png" width="400"/>
+<img src="assets/praktikum1/gambar4.png" width="300"/>
 
 
 ## Praktikum 4: Menerapkan Widget Dasar
@@ -49,7 +49,7 @@ class MyTextWidget extends StatelessWidget {
 ```
 output: 
 
-<img src="assets/praktikum4/gambar1.jpeg" width="400"/>
+<img src="assets/praktikum4/gambar1.jpeg" width="300"/>
 
 ### Langkah 2: Image Widget
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
@@ -69,10 +69,12 @@ class MyImageWidget extends StatelessWidget {
 }
 ```
 Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo
-<img src="assets/praktikum4/gambar3.png" width="400"/>
+
+<img src="assets/praktikum4/gambar3.png" width="300"/>
 
 output: 
-<img src="assets/praktikum4/gambar2.jpeg" width="400"/>
+
+<img src="assets/praktikum4/gambar2.jpeg" width="300"/>
 
 ## Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
 
@@ -97,7 +99,7 @@ return MaterialApp(
     );
 ```
     output: 
-   <img src="assets/praktikum5/gambar%201.jpeg" width="400"/>
+   <img src="assets/praktikum5/gambar%201.jpeg" width="300"/>
 
 ### Langkah 2: Floating Action Button (FAB)
 Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
@@ -118,7 +120,7 @@ return MaterialApp(
     );
 ```
 output:
-<img src="assets/praktikum5/gambar2.jpeg" width="400"/>
+<img src="assets/praktikum5/gambar2.jpeg" width="300"/>
 
 ### Langkah 3: Scaffold Widget
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
@@ -202,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 output:
-<img src="assets/praktikum5/gambar3.jpeg" width="400"/>
+<img src="assets/praktikum5/gambar3.jpeg" width="300"/>
 
 ### Langkah 4: Dialog Widget
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
@@ -268,7 +270,7 @@ showAlertDialog(BuildContext context) {
 ```
 
 output:
-<img src="assets/praktikum5/gambar4.jpeg" width="400"/>
+<img src="assets/praktikum5/gambar4.jpeg" width="300"/>
 
 ### Langkah 5: Input dan Selection Widget
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
@@ -295,7 +297,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-<img src="assets/praktikum5/gambar5.jpeg" width="400"/>
+<img src="assets/praktikum5/gambar5.jpeg" width="300"/>
 
 ### Langkah 6: Date and Time Pickers
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
@@ -375,4 +377,4 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 output:
-<img src="assets/praktikum5/gambar6.jpeg" width="400"/>
+<img src="assets/praktikum5/gambar6.jpeg" width="300"/>
