@@ -99,7 +99,7 @@ return MaterialApp(
     );
 ```
     output:
-     
+
    <img src="assets/praktikum5/gambar%201.jpeg" width="300"/>
 
 ### Langkah 2: Floating Action Button (FAB)
@@ -126,7 +126,6 @@ output:
 
 ### Langkah 3: Scaffold Widget
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
-
 Ubah isi kode main.dart seperti berikut.
 ```dart
 import 'package:flutter/material.dart';
