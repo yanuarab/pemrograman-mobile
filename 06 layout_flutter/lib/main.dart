@@ -7,8 +7,46 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    // TITLE SECTION 
+    Widget titleSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: Row(
+        children: [
+          Expanded(
+            //soal 1
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                //soal 2
+                Container(
+                  padding: const EdgeInsets.only(bottom: 8),
+                  child: const Text(
+                    'Wisata Gunung di Batu',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                const Text(
+                  'Batu, Malang, Indonesia',
+                  style: TextStyle(color: Colors.grey),
+                ),
+              ],
+            ),
+          ),
+          //soal 3
+          const Icon(
+            Icons.star,
+            color: Colors.red,
+          ),
+          const Text('41'),
+        ],
+      ),
+    );
+
     return MaterialApp(
-      title: 'Flutter layout: Yanuar - 244107060016',
+      title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
@@ -23,34 +61,8 @@ class MyApp extends StatelessWidget {
               fit: BoxFit.cover,
             ),
 
-            // 2. Judul + lokasi + rating
-            Padding(
-              padding: const EdgeInsets.all(16),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
-                          Text(
-                  'Oeschinen Lake Campground',
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                     SizedBox(height: 4),
-                         Text(
-                           'Kandersteg, Switzerland',
-                              style: TextStyle(color: Colors.grey),
-             ),
-           ],
-      ),
-    ),
-    const Icon(Icons.star, color: Colors.red),
-    const SizedBox(width: 4),
-    const Text('41'),
-  ],
-)
-                  ),
-            
+            // 2. Title Section (SUDAH DIMASUKKAN)
+            titleSection,
 
             // 3. Tombol
             Row(
@@ -81,14 +93,13 @@ class MyApp extends StatelessWidget {
             ),
 
             // 4. Deskripsi
-            Padding(
-              padding: const EdgeInsets.all(16),
-              child: const Text(
+            const Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
                 'Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese Alps. '
                 'Situated 1,578 meters above sea level, it is one of the larger Alpine Lakes. '
                 'A gondola ride from Kandersteg, followed by a half-hour walk through pastures '
-                'and pine forest, leads you to the lake, which warms to 20 degrees Celsius in '
-                'the summer. Activities enjoyed here include rowing, and riding the summer toboggan run.',
+                'and pine forest, leads you to the lake.',
               ),
             ),
           ],
