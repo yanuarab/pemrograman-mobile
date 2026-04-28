@@ -145,7 +145,7 @@ Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen di
  ```
 output:
 
-![hasil](assets/praktikum1/langkah%203.png)
+![hasil](assets/praktikum1/langkah3.png)
 
 ### Langkah 4: Implementasi title row
 Pertama, Anda akan membuat kolom bagian kiri pada judul. Tambahkan kode berikut di bagian atas metode build() di dalam kelas MyApp:
