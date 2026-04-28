@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/item_page.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Layout : Yanuar Alda Baran - 244107060016',
       initialRoute: '/',
       routes: {
-        '/': (context) => HomePage(),
-        '/item': (context) => ItemPage(),
+        '/': (context) =>  HomePage(),
+        '/item': (context) =>  ItemPage(),
       },
     );
   }
