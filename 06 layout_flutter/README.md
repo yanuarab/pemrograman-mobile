@@ -202,3 +202,48 @@ Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon
 
 Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pribadi bernama buildButtonColumn(), yang mempunyai parameter warna, IconData dan String label, sehingga dapat mengembalikan kolom dengan widgetnya sesuai dengan warna tertentu.
 
+```dart
+Column _buildButtonColumn(Color color, IconData icon, String label) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(icon, color: color),
+        Container(
+          margin: const EdgeInsets.only(top: 8),
+          child: Text(
+            label,
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w400,
+              color: color,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+```
+
+### Langkah 2: Buat widget buttonSection
+```dart
+Color color = Theme.of(context).primaryColor;
+Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        _buildButtonColumn(color, Icons.call, 'CALL'),
+        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE'),
+      ],
+    );
+
+```
+### Langkah 3: Tambah button section ke body  
+
+![hasil](assets/praktikum2/Langkah3_prk2.png)
+
+hasil  praktikum 2
+
+1[hasil](assets/praktikum2/Langkah3.png)
+
+
