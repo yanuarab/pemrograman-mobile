@@ -244,6 +244,6 @@ Widget buttonSection = Row(
 
 hasil  praktikum 2
 
-1[hasil](assets/praktikum2/Langkah3.png)
+![hasil](assets/praktikum2/Langkah3.png)
 
 
