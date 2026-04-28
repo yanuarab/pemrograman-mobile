@@ -290,4 +290,19 @@ output :
 ### Langkah 1: Siapkan aset gambar
 Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
 
-![hasil]
+![hasil](assets/praktikum4/langkah1.png)
+
+## Langkah 2: Tambahkan gambar ke body
+Tambahkan aset gambar ke dalam body seperti berikut:
+
+![hasil](assets/praktikum4/langkah2.png)
+
+### Langkah 3: Terakhir, ubah menjadi ListView
+Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+
+![hasil](assets/praktikum4/langkah3.png)
+
+output:
+
+![hasil](assets/praktikum4/hasil.png)
+
