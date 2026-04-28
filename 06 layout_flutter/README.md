@@ -246,4 +246,48 @@ hasil  praktikum 2
 
 ![hasil](assets/praktikum2/Langkah3.png)
 
+## Praktikum 3: Implementasi text section
 
+### Langkah 1: Buat widget textSection
+Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tambahkan padding di sepanjang setiap tepinya. Tambahkan kode berikut tepat di bawah deklarasi buttonSection:
+```dart
+Widget textSection = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Carilah teks di internet yang sesuai '
+    'dengan foto atau tempat wisata yang ingin '
+    'Anda tampilkan. '
+    'Tambahkan nama dan NIM Anda sebagai '
+    'identitas hasil pekerjaan Anda. '
+    'Selamat mengerjakan 🙂.',
+    softWrap: true,
+  ),
+);
+
+```
+
+![hasil](assets/praktikum3/Langkah1.png)
+
+### Langkah 2: Tambahkan variabel text section ke body
+Tambahkan widget variabel textSection ke dalam body seperti berikut
+```dart
+  body: ListView(
+          children: [
+            titleSection,
+            buttonSection,
+            textSection,
+          ],
+        ),
+
+```
+
+output : 
+
+![hasil](assets/praktikum3/Hasil_prak3.png)
+
+## Praktikum 4: Implementasi image section
+
+### Langkah 1: Siapkan aset gambar
+Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
+
+![hasil]

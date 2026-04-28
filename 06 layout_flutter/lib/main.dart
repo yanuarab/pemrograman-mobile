@@ -77,7 +77,17 @@ class MyApp extends StatelessWidget {
       ],
     );
 
-   
+   Widget textSection = Container(
+  padding: const EdgeInsets.all(32),
+  child: const Text(
+    'Gunung Bromo merupakan salah satu destinasi wisata alam paling terkenal di Indonesia yang terletak di Jawa Timur. '
+    'Tempat ini menawarkan panorama matahari terbit yang memukau, hamparan lautan pasir yang luas, serta pemandangan kawah aktif yang menakjubkan. '
+    'Keindahan alamnya menjadikan Gunung Bromo sebagai tujuan favorit wisatawan lokal maupun mancanegara untuk menikmati petualangan, fotografi, dan suasana pegunungan yang sejuk.\n\n'
+    'Nama: Yanuar Alda Baran\n'
+    'NIM: 244107060016',
+    softWrap: true,
+  ),
+);
 
     return MaterialApp(
       title: 'Flutter Layout : Yanuar Alda Baran - 244107060016',
@@ -89,6 +99,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
