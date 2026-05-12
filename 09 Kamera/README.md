@@ -495,6 +495,8 @@ class _FilterSelectorState extends State<FilterSelector> {
 }
 ```
 
+hasil kode 
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
@@ -743,6 +745,8 @@ class _PhotoFilterCarouselState extends State<PhotoFilterCarousel> {
 }
 ```
 
+hasil kode
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -896,6 +900,8 @@ class CarouselFlowDelegate extends FlowDelegate {
   }
 }
 ```
+
+hasil kode
 
 ```dart
 import 'dart:math' as math;
@@ -1087,6 +1093,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
 ```
 
+## Tugas Praktikum
+1. Selesaikan Praktikum 1 dan 2, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md! Jika terdapat error atau kode yang tidak dapat berjalan, silakan Anda perbaiki sesuai tujuan aplikasi dibuat!
+2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
+
+3. Jelaskan maksud void async pada praktikum 1?
+async digunakan agar fungsi dapat menjalankan proses asynchronous seperti membuka kamera dan mengambil foto tanpa menghentikan program. Sedangkan Future<void> berarti fungsi tidak mengembalikan nilai tetapi menunggu proses selesai.
+
+4. Jelaskan fungsi dari anotasi @immutable dan @override ?
+@immutable digunakan untuk menandakan bahwa data pada class tidak dapat diubah setelah objek dibuat sehingga data lebih aman dan konsisten.
+
+@override digunakan untuk menandakan bahwa method yang dibuat menggantikan method dari parent class, misalnya method build() pada widget Flutter.
+
+5. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
 
 
 
