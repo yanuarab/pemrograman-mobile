@@ -1101,6 +1101,7 @@ import 'package:flutter/rendering.dart' show ViewportOffset;
 async digunakan agar fungsi dapat menjalankan proses asynchronous seperti membuka kamera dan mengambil foto tanpa menghentikan program. Sedangkan Future<void> berarti fungsi tidak mengembalikan nilai tetapi menunggu proses selesai.
 
 4. Jelaskan fungsi dari anotasi @immutable dan @override ?
+
 @immutable digunakan untuk menandakan bahwa data pada class tidak dapat diubah setelah objek dibuat sehingga data lebih aman dan konsisten.
 
 @override digunakan untuk menandakan bahwa method yang dibuat menggantikan method dari parent class, misalnya method build() pada widget Flutter.
