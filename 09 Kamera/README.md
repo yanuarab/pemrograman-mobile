@@ -1075,6 +1075,7 @@ void main() {
   );
 }
 ```
+![hasil](assets/praktikum2/langkah6.png)
 
 Troubleshoot
 Jika diperlukan, beberapa widget yang telah Anda buat sebelumnya, memerlukan kode import berikut ini.
