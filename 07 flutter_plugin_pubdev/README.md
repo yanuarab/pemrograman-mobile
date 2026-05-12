@@ -61,7 +61,7 @@ Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
 
 ### Tugas Praktikum
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file README.md!
-
+y
 2. Jelaskan maksud dari langkah 2 pada praktikum tersebut!
 Langkah 2 bertujuan menambahkan plugin auto_size_text agar aplikasi dapat menggunakan widget AutoSizeText yang mampu menyesuaikan ukuran teks secara otomatis sesuai ruang yang tersedia.
 
